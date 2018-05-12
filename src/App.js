@@ -18,4 +18,12 @@ class App extends Component {
   }
 }
 
+let profile = (
+  <div>
+    <img src="avatar.png" className="profile" />
+    <h3>{[user.firstName, user.lastName].join(' ')}</h3>
+  </div>
+)
+
+
 export default App;
